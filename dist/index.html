@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- 修正：将绝对路径改为相对路径（Vite 会根据 base 配置自动补全前缀） -->
-    <link rel="icon" type="image/svg+xml" href="/xingchenkeji/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>星辰科技 - 智能企业解决方案</title>
-    <!-- 移除：手动引用的构建产物 JS/CSS（这些会由 Vite 自动注入） -->
-    <script type="module" crossorigin src="/xingchenkeji/assets/index-Cuzk6lmu.js"></script>
-    <link rel="stylesheet" crossorigin href="/xingchenkeji/assets/index-CFUgRUxY.css">
-  </head>
-  <body>
+    <!-- Vite 会自动注入 CSS 和 JS，无需手动添加 script/link 标签 -->
+    <!-- 如果有favicon，可以保留 -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+</head>
+<body>
     <div id="root"></div>
-    <!-- 新增：引用源码入口文件（Vite 会从这里开始打包，自动生成哈希文件并注入） -->
-  </body>
+    <!-- Vite 会自动将 main.jsx 的入口注入到这里 -->
+</body>
 </html>
